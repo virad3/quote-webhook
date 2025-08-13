@@ -8,7 +8,7 @@ export default async function handler(req, res) {
 
   if (req.method === "POST") {
     try {
-      const googleAppsScriptUrl = "https://script.google.com/macros/s/AKfycbxgXlDrIw_CX2PDi3sZI52E_YwDTthmMBrc4NzVPt_Czt71OuHyfkfkHPHhttCKT8I/exec";
+      const googleAppsScriptUrl = "https://script.google.com/macros/s/AKfycbwLje43AV4n2R32OJl2W6_j6t3jrSbsHIhfBh-1ro0pIRdT0uSCMxPjOReG-Rbh5YyWLA/exec";
 
       const response = await fetch(googleAppsScriptUrl, {
         method: "POST",
